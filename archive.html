@@ -1,32 +1,5 @@
-<head>
-  <link rel="stylesheet" href="archive-style.css">
-  <script>var makeItRain = function() {
-  $('.rain').empty();
-
-  var increment = 0;
-  var drops = "";
-  var backDrops = "";
-
-  while (increment < 100) {
-    var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
-    var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
-    increment += randoFiver;
-    drops += '<div class="drop" style="left: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;">';
-    backDrops += '<div class="drop" style="right: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
-  }
-
-  $('.rain.front-row').append(drops);
-  $('.rain.back-row').append(backDrops);
-}
-
-makeItRain();</script>
-</head>
-<body style="text-align:center;">
-  <p style="font-family:helvetica">
-  <p style="color:white">archive
-  </p>
+<body style="text-align:center;"><body style="background-color:#dcdcdc;">
+  <p style="font-family:helvetica">archive</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pr9u2JP9BeI?si=v99nvLL7hB658t_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <p style="font-family:helvetica">
-  <p style="color:white"> <a href="index.html">home</a>
-  </p>
+  <p style="font-family:helvetica"><a href="index.html">home</a></p>
 </body>
